@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<title>Grid website - gallery</title>
+		<link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="styles/index.css">
+		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/7f24a37400.js" crossorigin="anonymous"></script>
+		<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="grid-container">
+			<div class="grid-item grid-header">
+				<header class="header">
+					<nav class="header__nav">
+						<div class="responsive_button">
+							<i class="fas fa-bars"></i>
+						</div>
+						<ul class="header__nav-ul">
+							<li class="header__nav__ul-li home" title="home">Home</li>
+							<li class="header__nav__ul-li contact">Contact</li>
+							<li class="header__nav__ul-li about_us">About us</li>
+							<li class="header__nav__ul-li help">Help</li>
+						</ul>
+				</header>
+			</div>
+			<div class="grid-item grid-main">
+				<div class="responsive_menu">
+					<ul class="responsive_menu-ul">
+						<li class="responsive__ul-li help_responsive"><i class="fas fa-question-circle"></i>  Help</li>
+						<li class="responsive__ul-li about_us_responsive"><i class="fas fa-users"></i>  About us</li>  
+						<li class="responsive__ul-li contact_responsive"><i class="fas fa-envelope"></i>  Contact</li>
+					</ul>
+				</div>
+				<div class="gallery">
+					<div class="gallery-button-conteiner">
+						<div class="gallery-div " id="previous-button" title="previous"><i class="fas fa-arrow-left"></i></div>
+						<div class="gallery-div" id="next-button"><i class="fas fa-arrow-right" title="next"></i></div>
+					</div>
+					<div class="gallery__circles-container">
+							<div class="circles">
+								<span class="gallery-circles f_circle"></span>
+								<span class="gallery-circles s_circle"></span>
+								<span class="gallery-circles t_circle"></span>
+							</div>
+					</div>
+					<img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="gallery-img">
+				</div>
+			</div>
+			<div class="grid-item grid-footer">Footer</div>
+		</div>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
